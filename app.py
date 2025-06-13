@@ -475,8 +475,7 @@ with st.sidebar.expander("💡 Writing Prompts"):
             del st.session_state.prompt
 
 # --- PDF Export ---
-
-st.sidebar.markdown("---")  # Visual separator
+st.sidebar.markdown("---")
 with st.sidebar.expander("📤 Export Journal"):
     if st.button("Generate PDF Report"):
         try:
@@ -486,15 +485,21 @@ with st.sidebar.expander("📤 Export Journal"):
                 if entries.empty:
                     st.warning("⚠️ No journal entries available to export.")
                 else:
+                    st.success(f"📝 Entries loaded: {len(entries)}")  # debug print
                     pdf_bytes = export_to_pdf(entries)
-                    st.download_button(
-                        label="Download PDF",
-                        data=pdf_bytes,
-                        file_name=f"mood_journal_{datetime.now().date()}.pdf",
-                        mime="application/pdf"
-                    )
+                    
+                    if not pdf_bytes:
+                        st.error("⚠️ PDF generation returned empty data.")
+                    else:
+                        st.download_button(
+                            label="Download PDF",
+                            data=pdf_bytes,
+                            file_name=f"mood_journal_{datetime.now().date()}.pdf",
+                            mime="application/pdf"
+                        )
         except Exception as e:
             st.error(f"Export failed: {e}")
+
 
 
 
