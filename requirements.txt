@@ -8,4 +8,5 @@ vaderSentiment
 plotly
 statsmodels
 scikit-learn
+fpdf
 
