@@ -6,4 +6,5 @@ seaborn
 wordcloud
 vaderSentiment
 plotly
+statsmodels
 
