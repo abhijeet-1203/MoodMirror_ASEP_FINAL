@@ -7,4 +7,5 @@ wordcloud
 vaderSentiment
 plotly
 statsmodels
+scikit-learn
 
