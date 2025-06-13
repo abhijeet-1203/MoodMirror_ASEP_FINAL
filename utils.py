@@ -20,6 +20,8 @@ def save_entry(date, entry, sentiment, score, keywords):
     })
     df = pd.concat([df, new_entry], ignore_index=True)
     df.to_csv(DATA_PATH, index=False) 
+
+
 # pdf export
 def export_to_pdf(df):
     """Export journal entries to PDF with emoji and bold support"""
