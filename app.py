@@ -483,7 +483,7 @@ with st.sidebar.expander("📤 Export Journal"):
             with st.spinner("Creating PDF..."):
                 entries = load_entries()
 
-                if not entries or len(entries) == 0:
+                if entries.empty:
                     st.warning("⚠️ No journal entries available to export.")
                 else:
                     pdf_bytes = export_to_pdf(entries)
