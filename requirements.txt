@@ -1,0 +1,14 @@
+streamlit
+textblob
+nltk
+matplotlib
+seaborn
+wordcloud
+vaderSentiment
+plotly
+sqlite3 #optional
+hashlib #optional
+speechrecognition>=3.8.1 #optional
+pydub>=0.25.1 #optional
+statsmodels #optional
+scikit-learn #optional

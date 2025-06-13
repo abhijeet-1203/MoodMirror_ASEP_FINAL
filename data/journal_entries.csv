@@ -1,0 +1,116 @@
+Unnamed: 0,Entry,Sentiment,Score,Keywords,Date
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,"hello
+",Neutral,0.0,,2025-05-05
+,Reconnected with an old friend over coffee. Laughed for hours like no time had passed.,Positive,0.7579,"reconnected, old friend, laughed",2025-05-05
+,"Overwhelmed with deadlines. Can't sleep, can't eat, just panic.",Positive,0.4408,"overwhelmed, ca, n't sleep, ca n't",2025-05-05
+,"Usual Tuesday: gym at 7, work 9-5, watched Netflix after dinner.",Neutral,0.0,"usual, netflix",2025-05-05
+,"thats sunny day !
+",Positive,0.4753,thats sunny day,2025-05-05
+,i hate goodbyes!,Negative,-0.6114,,2025-05-05
+,i like python!,Positive,0.4199,,2025-05-05
+,its raining outside!,Neutral,0.0,,2025-05-10
+,i like to kill people,Negative,-0.4939,,2025-05-10
+,i like to kill people,Negative,-0.4939,,2025-05-10
+,i dont like python ,Negative,-0.2755,i dont,2025-05-10
+,i dont hate python ,Positive,0.4585,i dont,2025-05-10
+,kill,Negative,-0.6908,,2025-05-10
+,i like to to learn c and and c ++,Positive,0.3612,c ++,2025-05-10
+,i like to learn c c c c ,Positive,0.3612,c c c c,2025-05-10
+,spend a day with old friend!,Positive,0.5411,old friend,2025-05-10
+,Done with chest tricep day today at gym!,Neutral,0.0,"done, chest tricep day",2025-05-13
+,It was a crazy day today!,Negative,-0.4003,crazy day,2025-05-15
+,It was a great day today!,Positive,0.6588,great day,2025-05-17
+,I had a terrible experience at hotel!,Negative,-0.5255,terrible experience,2025-05-17
+,It was a great day today!,Positive,0.6588,great day,2025-05-17
+,its right!,Neutral,0.0,,2025-06-09
+,Great,Positive,0.6249,,2025-06-10
+,😂,Positive,0.4404,,2025-06-10
+,😒,Neutral,0.0,,2025-06-10
+,😓,Negative,-0.4215,,2025-06-10
+,Its great!,Positive,0.6588,,2025-06-10
+,great,Positive,0.6249,,2025-06-10
+,i am done with this,Neutral,0.0,,2025-06-10
+,good,Positive,0.4404,,2025-06-10
+,bad,Negative,-0.5423,,2025-06-10
+,scary,Negative,-0.4939,,2025-06-10
+,kill,Negative,-0.6908,,2025-06-10
+,like,Positive,0.3612,,2025-06-10
+,Done with the morning walk today!,Neutral,0.0,"done, morning walk",2025-06-11
+,I hate people!,Negative,-0.6114,,2025-06-11
+,i dont like it!,Negative,-0.3404,i dont,2025-06-11
+,i like that chocolate,Positive,0.3612,,2025-06-11
+,Its great success,Positive,0.8316,great success,2025-06-11
+,Wow so nice,Positive,0.7841,wow,2025-06-11
+,dont like,Negative,-0.2755,,2025-06-11
+,It was such a long and tiring day. Classes felt endless and I barely got time to relax. I'm just exhausted.,Positive,0.1027,classes,2025-06-11
+,it was a great day!,Positive,0.6588,great day,2025-06-11
+,Had a great day at college!,Positive,0.6588,great day,2025-06-11
+,Feeling low and tired.,Negative,-0.5423,feeling,2025-06-12
+,Just an ordinary day.,Neutral,0.0,ordinary day,2025-06-12
+,Nervous about tomorrow's exam.,Negative,-0.2732,"nervous, 's exam",2025-06-12
+,"Watched my favorite movie, felt relaxed.",Positive,0.7351,"watched, favorite movie",2025-06-12
+,I'm feeling really down today.,Positive,0.128,'m feeling,2025-06-12
+,"Nothing went right, everything was frustrating.",Negative,-0.4404,,2025-06-12
+,I’m exhausted and overwhelmed.,Negative,-0.3182,’ m,2025-06-12
+,I’m exhausted and overwhelmed.,Negative,-0.3182,’ m,2025-06-12
+,Had a terrible headache all day.,Negative,-0.4767,terrible headache,2025-06-12
+,Lost motivation to do anything.,Neutral,0.0258,lost,2025-06-12
+,I regret how I handled things.,Negative,-0.4215,,2025-06-12
+,I'm feeling really happy and grateful.,Positive,0.8297,'m feeling,2025-06-12
+,Everything worked out perfectly today.,Positive,0.6369,,2025-06-12
+,Proud of what I achieved today.,Positive,0.4767,proud,2025-06-12
+,Smiled a lot and laughed with friends.,Positive,0.8625,smiled,2025-06-12
+,Woke up feeling fresh and motivated.,Positive,0.7003,woke,2025-06-12
+,Today was full of good vibes!,Positive,0.4926,good vibes,2025-06-12
+,Smiled a lot and laughed with friends.,Positive,0.8625,smiled,2025-06-12
+,"Proud of what I achieved today.
+",Positive,0.4767,proud,2025-06-13
+,Everything worked out perfectly today.,Positive,0.6369,,2025-06-13
+,Everything feels pointless right now.,Neutral,0.0,,2025-06-13
+,I’m stuck in a bad mood.,Negative,-0.6705,"’ m, bad mood",2025-06-13
+,Made so many mistakes today.,Negative,-0.4173,made,2025-06-13
+,Feeling anxious for no reason.,Negative,-0.4019,feeling,2025-06-13
+,Argued with a close friend. I feel awful.,Negative,-0.3182,"argued, close friend",2025-06-13
+,Didn’t enjoy anything I did.,Positive,0.4939,"didn, ’ t",2025-06-13
+,Didn’t enjoy anything.,Positive,0.4939,"didn, ’ t",2025-06-13
+,Didn’t enjoy.,Positive,0.4939,"didn, ’ t",2025-06-13
+,I hate how today turned out.,Negative,-0.5719,,2025-06-13
+,Couldn't focus at all.,Neutral,0.0,n't focus,2025-06-13
+,I’m not proud of how I acted.,Negative,-0.3724,’ m,2025-06-13
+,I’m scared I’ll never improve.,Negative,-0.6492,"’ m, ’ ll",2025-06-13
+,Failed to meet my own expectations.,Negative,-0.5106,"failed, own expectations",2025-06-13
+,Nothing I did felt good enough.,Positive,0.4404,,2025-06-13
+,I messed up again. Why can't I get things right?,Negative,-0.34,ca n't,2025-06-13
+,Why can't I get things right?,Neutral,0.0,ca n't,2025-06-13
