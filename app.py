@@ -481,15 +481,21 @@ with st.sidebar.expander("📤 Export Journal"):
     if st.button("Generate PDF Report"):
         try:
             with st.spinner("Creating PDF..."):
-                pdf_bytes = export_to_pdf(load_entries())
-                st.download_button(
-                    label="Download PDF",
-                    data=pdf_bytes,
-                    file_name=f"mood_journal_{datetime.now().date()}.pdf",
-                    mime="application/pdf"
-                )
+                entries = load_entries()
+
+                if not entries or len(entries) == 0:
+                    st.warning("⚠️ No journal entries available to export.")
+                else:
+                    pdf_bytes = export_to_pdf(entries)
+                    st.download_button(
+                        label="Download PDF",
+                        data=pdf_bytes,
+                        file_name=f"mood_journal_{datetime.now().date()}.pdf",
+                        mime="application/pdf"
+                    )
         except Exception as e:
             st.error(f"Export failed: {e}")
+
 
 
 # [End of file - nothing should come after]
